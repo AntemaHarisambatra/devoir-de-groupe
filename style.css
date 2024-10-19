@@ -91,6 +91,16 @@
     width: 300px;
     text-align: center;
   }
+
+  .game-card h3 a{
+    text-decoration:none;
+    color:white;
+  }
+
+  .game-card h3 a:hover{
+    color:#d40813;
+    cursor:pointer;
+  }
   
   .game-card img {
     width: 100%;
@@ -132,7 +142,7 @@
     cursor:pointer;
   }
 
-  .anims button{
+  .button{
     background-color: #e50914;
     border-color:#e50914;
     color: white;
@@ -140,10 +150,6 @@
     text-decoration: none;
     border-radius: 10px;
     transition: background 0.3s;
-  }
-
-  .anims button:hover{
-    background-color: #d40813;
   }
 
   footer {
