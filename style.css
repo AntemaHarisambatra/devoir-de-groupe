@@ -96,7 +96,56 @@
     width: 100%;
     border-radius: 10px;
   }
+
+  .anims{
+    text-align:center;
+    padding:100px 20px;
+  }
+
+  .anim-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .anim-poster{
+    background-color: #1a1a1a;
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+  }
   
+  .anim-poster img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .anims h3 a{
+    text-decoration:none;
+    color:white;
+  }
+
+  .anims h3 a:hover{
+    color:#d40813;
+    cursor:pointer;
+  }
+
+  .anims button{
+    background-color: #e50914;
+    border-color:#e50914;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background 0.3s;
+  }
+
+  .anims button:hover{
+    background-color: #d40813;
+  }
+
   footer {
     background-color: #1a1a1a;
     text-align: center;
