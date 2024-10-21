@@ -12,18 +12,17 @@
   }
   
   header {
-    background-color: #1a1a1a;
+    background-color: rgb(22, 22, 22);
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
   
-  .logo {
-    font-size:1.5em;
-    color:red;
+  .logo{
+    color: #e50914;
   }
-  
+
   .nav-links {
     list-style: none;
     display: flex;
