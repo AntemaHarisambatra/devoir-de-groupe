@@ -1,4 +1,5 @@
 
+
 * {
     margin: 0;
     padding: 0;
@@ -163,7 +164,6 @@
     display: flex;
     justify-content: center;
 }
-
 #search-input{
     padding: 10px;
     width: 300px;
@@ -171,21 +171,20 @@
     border-radius: 5px 0 0 5px;
     outline: none;
 }
-
 #search-button{
     padding: 10px;
     border: none;
     background: #007bff;
     color: white;
-    border-radius: 0 6px 6px 0;
+    border-radius: 0 5px 5px 0;
     cursor: pointer;
 }
-
 #search-button:hover{
     background: #0056b3;
 }
+#search-button i{
+    font-size: 13px;
+}
 
-#search-button i{ 
-    font-size: 16px;
-  }
- 
+
+  
