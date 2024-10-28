@@ -1,30 +1,3 @@
-<<<<<<< HEAD
-body {
-  font-family: 'Press Start 2P', cursive;
-  background-color: #0e0e0e;
-  color: white;
-}
-
-h1{
-text-align: center;
-color: white;
-text-shadow: 
-0 0 20px rgb(167, 98, 98),
-0 0 30px rgba(206, 39, 39, 0.879),
-0 0 40px rgb(255, 0, 0),
-0 0 50px rgb(255, 75, 117);
-}
-#gta {
-  width: 800px;
-  height: 400px;
-  display: flex;
-}
-#bp{
-  width: 800px;
-  height: 400px;
-  display: flex;
-}
-=======
 
 body {
     font-family: 'Press Start 2P', cursive;
@@ -53,4 +26,3 @@ h1{
     height: 400px;
     display: flex;
   }
->>>>>>> 8cf08c83d4e43cc9c8581ce8314d838f7a1f1b27
