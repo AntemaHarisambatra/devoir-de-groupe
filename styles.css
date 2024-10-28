@@ -1,38 +1,25 @@
 body {
-    font-family: 'Press Start 2P', cursive;
-    background-color: #0e0e0e;
-    color: white;
-  }
-  
-h1{
-  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  background-color: #0e0e0e;
   color: white;
-  text-shadow: 
-  0 0 20px plum,
-  0 0 30px purple,
-  0 0 40px rgb(171, 58, 171),
-  0 0 50px rgb(255, 75, 192);
-  }
-  #gta {
-    width: 900px;
-    height: 500px;
-    margin-left: 300px;
-  }
-  #bp{
-    width: 1000px;
-    height: 700px;
-    margin-left: 300px;
-    display: flex;
-  }
-  #bp{
-    width: 300px;
-    height: 600px;
-    margin-left: 300px;
-    display: flex;
-  }
-  #Bp{
-    width: 1000px;
-    height: 700px;
-    margin-left: 300px;
-    display: flex;
-  }
+}
+
+h1{
+text-align: center;
+color: white;
+text-shadow: 
+0 0 20px rgb(167, 98, 98),
+0 0 30px rgba(206, 39, 39, 0.879),
+0 0 40px rgb(255, 0, 0),
+0 0 50px rgb(255, 75, 117);
+}
+#gta {
+  width: 800px;
+  height: 400px;
+  display: flex;
+}
+#bp{
+  width: 800px;
+  height: 400px;
+  display: flex;
+}

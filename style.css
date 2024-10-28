@@ -146,9 +146,12 @@
     border-color:#e50914;
     color: white;
     padding: 10px 20px;
+    width: 20%;
     text-decoration: none;
     border-radius: 10px;
     transition: background 0.3s;
+    display: flex;
+    margin-left: 500px;
   }
 
   footer {
