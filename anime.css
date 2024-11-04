@@ -31,7 +31,7 @@ p {
 }
 
 
-.anime-grid {
+.anim-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
@@ -41,7 +41,7 @@ p {
 }
 
 
-.anime-card {
+.anim-card {
     background-color: #333;
     border-radius: 10px;
     overflow: hidden;
@@ -50,35 +50,35 @@ p {
     cursor: pointer;
 }
 
-.anime-card img {
+.anim-card img {
     width: 100%;
     height: auto;
     display: block;
     transition: transform 0.3s;
 }
 
-.anime-card:hover {
+.anim-card:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 15px red;
 }
 
-.anime-card:hover img {
+.anim-card:hover img {
     transform: scale(1.1);
 }
 
 
-.anime-info {
+.anim-info {
     padding: 15px;
     text-align: center;
 }
 
-.anime-info h2 {
+.anim-info h2 {
     font-size: 1.4em;
     color: #ff0000;
     margin-bottom: 10px;
 }
 
-.anime-info p {
+.anim-info p {
     font-size: 1em;
     color: #cccccc;
 }
