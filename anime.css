@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: black;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: red;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 1.2em;
+    color: #cccccc;
+    margin-bottom: 30px;
+}
+
+
+.anime-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    width: 90%;
+    max-width: 1200px;
+}
+
+
+.anime-card {
+    background-color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.anime-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s;
+}
+
+.anime-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px red;
+}
+
+.anime-card:hover img {
+    transform: scale(1.1);
+}
+
+
+.anime-info {
+    padding: 15px;
+    text-align: center;
+}
+
+.anime-info h2 {
+    font-size: 1.4em;
+    color: #ff0000;
+    margin-bottom: 10px;
+}
+
+.anime-info p {
+    font-size: 1em;
+    color: #cccccc;
+}
+
+footer {
+    background-color: #1a1a1a;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+  }
+
