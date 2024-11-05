@@ -5,7 +5,10 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
+  .text{
+    clear: both;
+  }
+
   body {
     font-family: 'Press Start 2P', cursive;
     background-color: #0e0e0e;
@@ -15,7 +18,6 @@
   header {
     background-color: rgb(36, 36, 36);
     padding: 10px 20px;
-    display: flex;
     justify-content: space-between;
     align-items: center;
   }
@@ -24,19 +26,21 @@
     color: #e50914;  
   }
 
-  .nav-links {
+  .nav-links { 
     list-style: none;
     display: flex;
   }
-  
+
   .nav-links li {
     margin: 0 15px;
+    
   }
   
   .nav-links a {
     text-decoration: none;
     color: white;
     transition: color 0.3s;
+  
   }
   
   .nav-links a:hover {
@@ -69,8 +73,10 @@
   }
   
   .btn:hover {
-    background-color: #d40813;
+    background-color: #1a1a1a;
+    cursor: pointer;
   }
+
   
   .popular-games {
     padding: 50px 20px;
@@ -150,11 +156,16 @@
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 10px;
-    transition: background 0.3s;
+    transition: background  0.3s;
     display: flex;
     margin-left: 500px;
   }
 
+  .button:hover{
+    cursor: pointer;
+    background-color: #1a1a1a;
+  }
+ 
   footer {
     background-color: #1a1a1a;
     text-align: center;
@@ -186,7 +197,8 @@
     background: #0056b3;
 }
 #search-button i{
-    font-size: 13px;
+    font-size: 18px;
 }
+
 
   
