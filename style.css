@@ -20,6 +20,7 @@
     padding: 10px 20px;
     justify-content: space-between;
     align-items: center;
+   
   }
   
   .logo{
@@ -148,23 +149,6 @@
     cursor:pointer;
   }
 
-  .button{
-    background-color: #e50914;
-    border-color:#e50914;
-    color: white;
-    width: 20%;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 10px;
-    transition: background  0.3s;
-    display: flex;
-    margin-left: 500px;
-  }
-
-  .button:hover{
-    cursor: pointer;
-    background-color: #1a1a1a;
-  }
  
   footer {
     background-color: #1a1a1a;
