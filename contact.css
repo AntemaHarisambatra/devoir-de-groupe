@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('background.png');
+    background-size: cover;
+    background-position: center;
+    animation: zoomEffect 20s infinite alternate;
+    color: white;
+}
+
+@keyframes zoomEffect {
+    0% {
+        background-size: 100%;
+    }
+    100% {
+        background-size: 120%;
+    }
+}
+
+.contact-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.contact-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.contact-container p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+.contact-form label {
+    display: block;
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+}
+
+.contact-form textarea {
+    resize: vertical; 
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(228, 223, 223, 0.795);
+}
+
+h1 {
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+    color: red;
+    text-transform: uppercase;
+}
+
+.container p {
+    font-size: 1.1rem;
+    color: #ccc;
+    margin-left: 10px;
+}
+
+.creators-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.creator-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.4s, box-shadow 0.4s;
+    position: relative;
+    cursor: pointer;
+    perspective: 1000px;
+}
+
+.creator-card:hover {
+    transform: scale(1.05) rotateX(5deg);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.7);
+}
+
+.card-content {
+    position: relative;
+    text-align: center;
+    padding: 20px;
+}
+
+.creator-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    margin: 15px auto;
+    transition: transform 0.4s ease;
+}
+
+.creator-card:hover .creator-photo {
+    transform: rotate(-10deg) scale(1.1);
+}
+
+.creator-info h3 {
+    margin: 10px 0 5px;
+    font-size: 1.4rem;
+    color: yellow;
+}
+
+.creator-info p {
+    margin: 0;
+    font-size: 1rem;
+    color: #ccc;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.social-icons a {
+    font-size: 1.2rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: translateY(-3px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-container {
+        padding: 30px;
+    }
+
+    .contact-container h1 {
+        font-size: 2rem;
+    }
+
+    .contact-form label, .contact-form input, .contact-form textarea {
+        font-size: 1rem;
+    }
+
+    .creators-grid {
+        grid-template-columns: 1fr;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-container {
+        padding: 20px;
+    }
+
+    .contact-container h1 {
+        font-size: 1.8rem;
+    }
+
+    .contact-form button {
+        font-size: 1rem;
+        padding: 8px 16px;
+    }
+
+    .creator-photo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .creator-info h3 {
+        font-size: 1.2rem;
+    }
+}
+
+
+.fa-facebook{
+    color: rgb(30, 73, 202);
+}
+
+.fa-github{
+    color: black;
+}
+
+.fa-instagram{
+    color:purple,
+     palevioletred;
+}
+
+.social-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: translateY(-3px);
+}
+
