@@ -1,12 +1,13 @@
-/* --- Styles de base --- */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: 'Press Start 2P', cursive;
-    background-color:black;
+    background-color: black;
     color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -40,7 +41,6 @@ p {
     max-width: 1200px;
 }
 
-
 .game-card {
     background-color: #333;
     border-radius: 10px;
@@ -57,9 +57,10 @@ p {
     transition: transform 0.3s;
 }
 
+
 .game-card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 6px 15px red;
+    transform: translate(1rem,1rem);
+    box-shadow: 0 12px 20px red;
 }
 
 .game-card:hover img {
@@ -72,6 +73,7 @@ p {
     text-align: center;
 }
 
+
 .game-info h2 {
     font-size: 1.4em;
     color: #ff0000;
@@ -83,10 +85,30 @@ p {
     color: #cccccc;
 }
 
+
 footer {
-    background-color: #1a1a1a;
     text-align: center;
-    padding: 15px 0;
-    margin-top: 20px;
-  }
+    padding: 15px;
+    background-color: #222;
+    color: #ffffff;
+    width: 100%;
+}
+
+/* --- Styles pour le bouton de téléchargement --- */
+.download-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #007bff; 
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.download-btn:hover {
+    background-color: #0056b3; 
+}
 

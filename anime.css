@@ -1,8 +1,9 @@
-* {
+  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: 'Press Start 2P', cursive;
     background-color: black;
@@ -30,7 +31,6 @@ p {
     margin-bottom: 30px;
 }
 
-
 .anim-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -39,7 +39,6 @@ p {
     width: 90%;
     max-width: 1200px;
 }
-
 
 .anim-card {
     background-color: #333;
@@ -58,18 +57,18 @@ p {
 }
 
 .anim-card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 6px 15px red;
+    transform: translateY(9deg);
+    box-shadow: 0 18px 20px red;
 }
 
 .anim-card:hover img {
     transform: scale(1.1);
 }
 
-
 .anim-info {
     padding: 15px;
     text-align: center;
+    color: #ffffff;
 }
 
 .anim-info h2 {
@@ -78,15 +77,27 @@ p {
     margin-bottom: 10px;
 }
 
-.anim-info p {
-    font-size: 1em;
-    color: #cccccc;
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #222;
+    color: #ffffff;
+    width: 100%;
 }
 
-footer {
-    background-color: #1a1a1a;
-    text-align: center;
-    padding: 15px 0;
-    margin-top: 20px;
-  }
+.download-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #007bff; 
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
 
+.download-btn:hover {
+    background-color: #0056b3; 
+}
