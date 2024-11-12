@@ -25,6 +25,38 @@
               <i class=" fas fa-search"></i>
           </button>
       </div>
+
+    <script>
+    document.getElementById('search-button').addEventListener('click', function() {
+        const query = document.getElementById('search-input').value.trim().toLowerCase();
+    
+        if (query) {
+            const elements = document.querySelectorAll('p, h1, h2, h3, h4, h5, h6, span, div,contact.html,Anime.html,Jeux.html');
+            let found = false;
+    
+            elements.forEach(element => {
+                const text = element.textContent.toLowerCase();
+    
+                if (text.includes(query)) {
+                    found = true;
+    
+                    const regex = new RegExp(`(${query})`, 'gi');
+                    element.innerHTML = element.textContent.replace(regex, '<mark>$1</mark>');
+    
+                    element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+            });
+    
+            if (!found) {
+                alert('Terme non trouvé sur cette page.');
+            }
+        } else {
+            alert('Veuillez entrer un terme de recherche.');
+        }
+    });
+    </script>
+  
+
     </header>
 
       <section class="banner">
